@@ -1,5 +1,6 @@
 function [outs,outt]=updatesrules(s,t,r)
-
+ %scope of this was to try and geralize the code in the other files so that it can parse any structure it gets fed in too turns out i got no clue how to parse a graph
+ %just skipp this and use the other 2 files sorry
 fn(1)=length(r{1});
 fn(2)=length(r{2});
 
